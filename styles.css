@@ -1,0 +1,172 @@
+/*<![CDATA[*/
+
+body {
+    background-color: LightSteelBlue; /*Teal; SlateGray; #aaaaaf;*/
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+}
+
+#header {
+    height: 150px;
+    text-align: center;
+}
+
+#header, .maincontent, #footer {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#title, #menu, h1 {
+    font-family: 'Yanone Kaffeesatz', 'Trebuchet MS', sans-serif;
+}
+
+#menu {
+    border-left: 1px solid white;
+    padding: 0.1em 0.5em;
+    text-align: left;
+    font-size: 20px;
+}
+
+#title, #menu {
+    width: 220px;
+}
+
+a, a.cleanlink:hover {
+    /*color: Gold; PaleTurquoise; DodgerBlue;*/
+    text-decoration: none;
+    border-bottom: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    outline: none;
+}
+
+#header a {
+    color: white;
+    padding: 0 0.25em 0.15em;
+    display: inline-block;
+    margin-bottom: 0.1em;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+#logo {
+    margin: 0pt 2em;
+}
+
+p {
+    line-height: 1.35em;
+    margin: 1.5em 0;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.maincontent {
+    line-height: 1.35em;
+}
+
+#footer {
+    text-align: center;
+    padding: 2em;
+    margin-top: 2em;
+    border-top: 1px solid white;
+}
+
+a > img {
+    border: none;
+}
+
+.time {
+    color: #00679a;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.2em;
+    letter-spacing: 0.05em;
+}
+
+h3 {
+    font-family: Arial, Sans-Serif;
+    font-size: 13pt;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 0.3em;
+    color: #000000;
+    margin-top: 1.5em;
+    margin-bottom: 0.3em;
+}
+
+input {
+    border-color: #00679a;
+    border-width: 1px;
+    border-style: solid;
+}
+
+textarea {
+    border-color: #00679a;
+    border-width: 1px;
+    border-style: solid;
+}
+
+table {
+    border: none;
+}
+
+td {
+    vertical-align: top;
+    font-family: Arial, Sans-Serif;
+    font-size: 10pt;
+    padding-bottom: 15px;
+}
+
+table.wikitable {
+    background: #F9F9F9;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin: 1em 1em 1em 0;
+}
+
+table.wikitable td, table.wikitable th {
+    border: 1px solid gray;
+}
+
+table.wikitable td {
+    vertical-align: middle;
+    padding: 1em;
+}
+
+table.wikitable a {
+    color: RoyalBlue;
+}
+
+table.wikitable img {
+    border: none;
+    vertical-align: middle;
+}
+
+.shadow {
+    -moz-box-shadow: 2px 2px 5px #888;
+    -webkit-box-shadow: 2px 2px 5px #888;
+    -box-shadow: 2px 2px 5px #888;
+}
+
+.tdpar {
+    background-color: Silver;
+}
+
+/*]]>*/
